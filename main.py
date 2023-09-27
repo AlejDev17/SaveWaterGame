@@ -86,7 +86,6 @@ def resume(value):
     global how_objects
     global puntos
     if value == True:
-        #print("juego ganado")
         #print(f"Nivel {how_objects / 10} completo")
         pygame.display.update()
         how_objects += 10
